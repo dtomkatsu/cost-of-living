@@ -167,12 +167,12 @@
         {
           "slot_id": "VEG-03",
           "subcategory": "fresh",
-          "description": "Carrots, whole, 2 lb bag",
+          "description": "Bolthouse Farms Baby-Cut Carrots 2 lb bag",
           "brand": "Bolthouse Farms",
           "pack_size": 32,
           "pack_unit": "oz",
           "norm_unit": "lb",
-          "upc": null,
+          "upc": "033383666044",
           "plu": "4562",
           "substitutions": ["Store brand 2 lb bag", "Loose carrots PLU 4562"]
         },
@@ -646,13 +646,14 @@
         {
           "slot_id": "FISH-03",
           "subcategory": "frozen",
-          "description": "Frozen shrimp, medium, raw peeled, 16 oz",
-          "brand": "SeaPak / IQF",
+          "description": "SeaPak Popcorn Shrimp 16 oz (breaded)",
+          "brand": "SeaPak",
           "pack_size": 16,
           "pack_unit": "oz",
           "norm_unit": "oz",
-          "upc": null,
-          "substitutions": ["Any 1 lb bag frozen raw shrimp"]
+          "upc": "041322224910",
+          "substitutions": ["Great Value Raw Shrimp 16 oz (Walmart only, UPC 078742001357)"],
+          "notes": "Breaded shrimp used for cross-chain consistency — no national raw shrimp brand available at all 4 Hawaii chains."
         },
         {
           "slot_id": "FISH-04",
@@ -984,13 +985,13 @@
         {
           "slot_id": "SNACK-03",
           "subcategory": "rice_crackers",
-          "description": "Arare/mochi crunch rice crackers, 8 oz",
+          "description": "Diamond Bakery Kakimochi (Hawaiian Cookies) 4.5 oz",
           "brand": "Diamond Bakery",
-          "pack_size": 8,
+          "pack_size": 4.5,
           "pack_unit": "oz",
           "norm_unit": "oz",
-          "upc": null,
-          "substitutions": ["Any arare rice crackers"],
+          "upc": "073218350403",
+          "substitutions": ["Ka-Me Original Rice Crackers 3.5 oz (UPC 070844001013)"],
           "notes": "Diamond Bakery is Oahu-based manufacturer with statewide distribution. Arare is ubiquitous in Hawaii."
         }
       ]

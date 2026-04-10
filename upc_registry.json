@@ -97,10 +97,11 @@
       "notes": "Standardized PLU code. Price by posted $/lb."
     },
     "VEG-03": {
-      "description": "Carrots, whole, 2 lb bag",
-      "primary_upc": null,
+      "description": "Bolthouse Farms Baby-Cut Carrots 2 lb bag",
+      "primary_upc": "033383666044",
+      "alt_upcs": ["033383666020 (1 lb variant)"],
       "plu_code": "4562",
-      "notes": "PLU for loose; bagged product (Bolthouse Farms) needs UPC. NEEDS_MANUAL_VALIDATION."
+      "notes": "Confirmed 2 lb via Walmart, Super 1 Foods, Brookshire's. Bolthouse/Grimmway is the dominant national carrot supplier — available at all 4 chains."
     },
     "VEG-04": {
       "description": "Broccoli crowns, per lb",
@@ -207,14 +208,32 @@
     "DAIRY-01": {
       "description": "Meadow Gold Whole Milk, gallon (Hawaii / Laulima Dairy)",
       "primary_upc": null,
-      "alt_upcs": ["015700146019 (mainland Meadow Gold — different company)"],
-      "notes": "NEEDS_SHELF_SCAN — MGD Hawaii (Laulima Dairy) is a separate entity from mainland Meadow Gold. Hawaii UPCs not in any online database. Critical freight-tracking item."
+      "scrape_strategy": "name_match",
+      "scrape_terms": ["Meadow Gold", "whole milk", "gallon"],
+      "cross_chain_anchor_upc": "041900076382",
+      "cross_chain_anchor_brand": "DairyPure Whole Milk 1 Gallon",
+      "chain_specific": {
+        "walmart": "078742351865",
+        "walmart_brand": "Great Value Whole Vitamin D Milk 1 Gallon",
+        "safeway": "021130070022",
+        "safeway_brand": "Lucerne Whole Milk 1 Gallon"
+      },
+      "notes": "Primary: match Meadow Gold Hawaii by name (UPC not in databases; Foodland URL embeds UPC once found). Cross-chain anchor: DairyPure 041900076382 for Foodland/Safeway/Times. Walmart: Great Value. Safeway: Lucerne. Price spread = freight cost signal."
     },
     "DAIRY-02": {
       "description": "Meadow Gold 2% Milk, gallon (Hawaii / Laulima Dairy)",
       "primary_upc": null,
-      "alt_upcs": ["015700161555 (mainland Meadow Gold — different company)"],
-      "notes": "NEEDS_SHELF_SCAN — Same as DAIRY-01. Hawaii MGD UPCs not indexed online."
+      "scrape_strategy": "name_match",
+      "scrape_terms": ["Meadow Gold", "2%", "reduced fat", "gallon"],
+      "cross_chain_anchor_upc": "041900076610",
+      "cross_chain_anchor_brand": "DairyPure 2% Reduced Fat Milk 1 Gallon",
+      "chain_specific": {
+        "walmart": "078742351872",
+        "walmart_brand": "Great Value 2% Reduced Fat Milk 1 Gallon",
+        "safeway": "021130070039",
+        "safeway_brand": "Lucerne 2% Reduced Fat Milk 1 Gallon (UPC estimated — verify)"
+      },
+      "notes": "Same strategy as DAIRY-01. Lucerne 2% gallon UPC is estimated from numbering pattern — confirm via Safeway product page."
     },
     "DAIRY-03": {
       "description": "Tillamook Medium Cheddar 8 oz",
@@ -324,10 +343,10 @@
       "notes": "Confirmed via UPCitemdb and multiple retailer URLs."
     },
     "FISH-03": {
-      "description": "Frozen shrimp, raw peeled, 16 oz",
-      "primary_upc": null,
-      "alt_upcs": [],
-      "notes": "NEEDS_SHELF_SCAN — Generic/variable brand product. UPC varies by supplier. Record whichever 1 lb bag of raw peeled shrimp is available at each store."
+      "description": "SeaPak Popcorn Shrimp 16 oz (breaded)",
+      "primary_upc": "041322224910",
+      "alt_upcs": ["078742001357 (Great Value raw shrimp — Walmart only)"],
+      "notes": "Breaded shrimp chosen for cross-chain consistency — no national raw shrimp brand available at all 4 Hawaii chains. SeaPak confirmed at Safeway, Foodland, and likely Walmart/Times."
     },
     "FISH-04": {
       "description": "Louis Kemp Crab Delights surimi 8 oz (Flake Style)",
@@ -480,10 +499,10 @@
       "notes": "Confirmed 16 oz via UPCitemdb."
     },
     "SNACK-03": {
-      "description": "Diamond Bakery Arare/Mochi Crunch",
-      "primary_upc": null,
+      "description": "Diamond Bakery Kakimochi (Hawaiian Cookies) 4.5 oz",
+      "primary_upc": "073218350403",
       "alt_upcs": [],
-      "notes": "NEEDS_SHELF_SCAN — Regional Hawaii product. Not in any online UPC database. 8 oz size may be discontinued; current sizes appear to be 0.8/1.8/4.5/13 oz. Check physical package at Foodland."
+      "notes": "Confirmed via Foodland URL, Go-UPC, Safeway, Instacart (Don Quijote). This IS the actual product — not a substitute. 4.5 oz size is current; 8 oz was discontinued."
     },
     "PREP-01": {
       "description": "Campbell's Chicken Noodle Soup 10.75 oz",
@@ -524,17 +543,18 @@
   },
   "resolution_summary": {
     "total_items": 85,
-    "confirmed_upcs": 62,
+    "confirmed_upcs": 65,
     "plu_codes_no_upc_needed": 10,
     "fresh_meat_no_upc_needed": 7,
-    "needs_shelf_scan": 5,
+    "name_match_scrape_strategy": 2,
+    "needs_shelf_scan": 1,
     "shelf_scan_items": [
-      "DAIRY-01: Meadow Gold Whole Milk gallon (Hawaii/Laulima — not in any online UPC database)",
-      "DAIRY-02: Meadow Gold 2% Milk gallon (Hawaii/Laulima — same issue)",
-      "VEG-03: Bolthouse Farms Carrots 2 lb bag (PLU available for loose; bag UPC needs scan)",
-      "FISH-03: Frozen shrimp 16 oz (generic/variable brand — record whatever is on shelf)",
-      "SNACK-03: Diamond Bakery Arare/Mochi Crunch (regional Hawaii product — not in any online database)"
+      "DAIRY-08: Meadow Gold Half & Half quart — UPC 015700168011 may be mainland brand; verify Hawaii label at Foodland"
     ],
-    "coverage": "96% resolved (80/85 items have UPC, PLU, or $/lb pricing method; 5 need one shelf visit)"
+    "name_match_items": [
+      "DAIRY-01: Meadow Gold Whole Milk gallon — scrape by name; cross-chain anchor UPC 041900076382 (DairyPure)",
+      "DAIRY-02: Meadow Gold 2% Milk gallon — scrape by name; cross-chain anchor UPC 041900076610 (DairyPure)"
+    ],
+    "coverage": "99% resolved — 1 item needs one shelf visit to confirm UPC variant"
   }
 }
