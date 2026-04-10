@@ -768,14 +768,14 @@
         {
           "slot_id": "BEV-01",
           "subcategory": "water",
-          "description": "Purified water, 24-pack 16.9 fl oz",
+          "description": "Purified water, 40-pack 16.9 fl oz",
           "brand": "Kirkland Signature (Costco)",
-          "pack_size": 405.6,
+          "pack_size": 676,
           "pack_unit": "fl_oz",
           "norm_unit": "fl_oz",
-          "upc": null,
+          "upc": "096619756803",
           "substitutions": ["Dasani 24-pk", "Aquafina 24-pk"],
-          "notes": "Some outer island areas rely on bottled water."
+          "notes": "Costco sells 40-count (not 24). Some outer island areas rely on bottled water."
         },
         {
           "slot_id": "BEV-02",
