@@ -17,26 +17,26 @@
     "GRAIN-01": {
       "description": "Nishiki Medium Grain Rice 5 lb",
       "primary_upc": "0011152285894",
-      "alt_upcs": ["0011152066301 (32 oz sushi rice)", "0011152156880 (Musenmai)"],
-      "notes": "Use 0011152285894 for 5 lb pack size. Multiple variants exist."
+      "alt_upcs": [],
+      "notes": "Confirmed 5 lb from batch 1."
     },
     "GRAIN-02": {
       "description": "Dynasty Jasmine Rice 5 lb",
-      "primary_upc": null,
+      "primary_upc": "0011152443683",
       "alt_upcs": [],
-      "notes": "NEEDS_MANUAL_VALIDATION — Open Food Facts API was unavailable during lookup. Visit Foodland with smartphone barcode scanner or check GS1 directly."
+      "notes": "Confirmed 5 lb from batch 1. Exact match."
     },
     "GRAIN-03": {
       "description": "Nature's Own Butterbread 20 oz",
-      "primary_upc": null,
+      "primary_upc": "0072250049191",
       "alt_upcs": [],
-      "notes": "NEEDS_MANUAL_VALIDATION — Not found in batch 1. Check Nature's Own product line or visit store."
+      "notes": "Confirmed 20 oz / 567g from batch 1. Exact match."
     },
     "GRAIN-04": {
       "description": "Nature's Own 100% Whole Wheat 20 oz",
-      "primary_upc": null,
+      "primary_upc": "0072250037129",
       "alt_upcs": [],
-      "notes": "NEEDS_MANUAL_VALIDATION — Not found in batch 1."
+      "notes": "Confirmed 20 oz / 567g from batch 1. Exact match."
     },
     "GRAIN-05": {
       "description": "General Mills Cheerios 18 oz",
@@ -46,39 +46,39 @@
     },
     "GRAIN-06": {
       "description": "Kellogg's Frosted Flakes 13.5 oz",
-      "primary_upc": "0041192100437",
-      "alt_upcs": ["0041192100192 (21.7 oz variant)", "0059724101487"],
-      "notes": "Use 0041192100437 for 13.5 oz. Closest match among Frosted Flakes variants."
+      "primary_upc": null,
+      "alt_upcs": ["0041192100437 (12 oz variant)", "0041192100192 (21.7 oz variant)"],
+      "notes": "Exact 13.5 oz size not in Open Food Facts. Use 12 oz (0041192100437) as substitution per basket protocol."
     },
     "GRAIN-07": {
       "description": "Barilla Spaghetti 16 oz",
-      "primary_upc": "8076800195057",
-      "alt_upcs": ["8076800105056 (1kg / 35.3 oz variant)"],
-      "notes": "EAN-13 barcode from Open Food Facts (European format). US UPC may differ. NEEDS_VERIFICATION for US market."
+      "primary_upc": "0076808515046",
+      "alt_upcs": [],
+      "notes": "Confirmed US 16 oz / 1 lb / 454g from batch 1."
     },
     "GRAIN-08": {
       "description": "Barilla Elbows 16 oz",
       "primary_upc": "0076808516135",
       "alt_upcs": [],
-      "notes": "Confirmed 16 oz (1 lb / 454g) from batch 1."
+      "notes": "Confirmed 16 oz / 1 lb / 454g from batch 1."
     },
     "GRAIN-09": {
       "description": "Gold Medal All Purpose Flour 5 lb",
-      "primary_upc": null,
+      "primary_upc": "0016000106109",
       "alt_upcs": [],
-      "notes": "NEEDS_MANUAL_VALIDATION — Not found in batch 1."
+      "notes": "Confirmed 5 lb / 80 oz from batch 1. Exact match."
     },
     "GRAIN-10": {
       "description": "Quaker Old Fashioned Oats 42 oz",
       "primary_upc": null,
       "alt_upcs": [],
-      "notes": "NEEDS_MANUAL_VALIDATION — Not found in batch 1."
+      "notes": "Exact 42 oz size not in Open Food Facts (API has 18 oz / 2 lb). NEEDS_MANUAL_VALIDATION or use next available size as substitution."
     },
     "GRAIN-11": {
       "description": "Mission Burrito Flour Tortillas 8 ct / 20 oz",
-      "primary_upc": null,
+      "primary_upc": "0073731004197",
       "alt_upcs": [],
-      "notes": "NEEDS_MANUAL_VALIDATION — Not found in batch 1."
+      "notes": "Confirmed 20 oz standard size from batch 1."
     },
     "FRUIT-01": {
       "description": "Bananas (PLU code, loose)",
