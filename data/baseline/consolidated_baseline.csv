@@ -103,3 +103,133 @@ VEG-01,foodland,foodland-maui,maui,15009,2026-04-10,"Russet potatoes, 5 lb bag",
 VEG-04,foodland,foodland-maui,maui,15009,2026-04-10,"Taylor Farms Baby Spinach, 6 oz",6.03,6.0,oz,1.005,False,estimated from Instacart; deflated by Honolulu markup ratio
 VEG-06,foodland,foodland-maui,maui,15009,2026-04-10,"Roma tomatoes, 1 lb",4.29,1.0,lb,4.29,False,estimated from Instacart; deflated by Honolulu markup ratio
 VEG-08,foodland,foodland-maui,maui,15009,2026-04-10,"Del Monte Whole Kernel Corn, 15.25 oz",2.69,15.25,oz,0.1764,False,estimated from Instacart; deflated by Honolulu markup ratio
+BEV-03,walmart,walmart-hilo,hawaii,15001,2026-04-21,"Folgers Classic Roast, 25.9 oz",20.38,25.9,oz,0.7869,False,
+BEV-03,walmart,walmart-kona,hawaii,15001,2026-04-21,"Folgers Classic Roast, 25.9 oz",20.38,25.9,oz,0.7869,False,
+DAIRY-01,walmart,walmart-hilo,hawaii,15001,2026-04-21,"Great Value Whole Milk, 1 gallon",6.08,128.0,fl_oz,0.0475,False,
+DAIRY-01,walmart,walmart-kona,hawaii,15001,2026-04-21,"Great Value Whole Milk, 1 gallon",6.08,128.0,fl_oz,0.0475,False,
+DAIRY-03,walmart,walmart-hilo,hawaii,15001,2026-04-21,Kraft Singles American Cheese Slices,4.63,12.0,oz,0.3858,False,Size not labeled; assumed 12 oz (16-count)
+DAIRY-03,walmart,walmart-kona,hawaii,15001,2026-04-21,Kraft Singles American Cheese Slices,4.63,12.0,oz,0.3858,False,Size not labeled; assumed 12 oz (16-count)
+DAIRY-06,walmart,walmart-hilo,hawaii,15001,2026-04-21,"Land O'Lakes Salted Butter, 1 lb",5.34,16.0,oz,0.3337,False,
+DAIRY-06,walmart,walmart-kona,hawaii,15001,2026-04-21,"Land O'Lakes Salted Butter, 1 lb",5.34,16.0,oz,0.3337,False,
+DAIRY-07,walmart,walmart-hilo,hawaii,15001,2026-04-21,"Great Value Eggs, Large, 12 each",3.74,12.0,ct,0.3117,False,
+DAIRY-07,walmart,walmart-kona,hawaii,15001,2026-04-21,"Great Value Eggs, Large, 12 each",3.74,12.0,ct,0.3117,False,
+FAT-01,walmart,walmart-hilo,hawaii,15001,2026-04-21,"Wesson Vegetable Oil, 40 oz",5.5,40.0,fl_oz,0.1375,False,
+FAT-01,walmart,walmart-kona,hawaii,15001,2026-04-21,"Wesson Vegetable Oil, 40 oz",5.5,40.0,fl_oz,0.1375,False,
+FISH-01,walmart,walmart-hilo,hawaii,15001,2026-04-21,"StarKist Chunk Light Tuna, 5 oz",1.13,5.0,oz,0.226,False,
+FISH-01,walmart,walmart-kona,hawaii,15001,2026-04-21,"StarKist Chunk Light Tuna, 5 oz",1.13,5.0,oz,0.226,False,
+FRUIT-01,walmart,walmart-hilo,hawaii,15001,2026-04-21,"Bananas, 1 lb",1.18,1.0,lb,1.18,False,
+FRUIT-01,walmart,walmart-kona,hawaii,15001,2026-04-21,"Bananas, 1 lb",1.18,1.0,lb,1.18,False,
+FRUIT-03,walmart,walmart-hilo,hawaii,15001,2026-04-21,"Fuji Apple, 1 lb",1.87,1.0,lb,1.87,False,
+FRUIT-03,walmart,walmart-kona,hawaii,15001,2026-04-21,"Fuji Apple, 1 lb",1.87,1.0,lb,1.87,False,
+FRUIT-05,walmart,walmart-hilo,hawaii,15001,2026-04-21,"Dole Pineapple Chunks in Juice, 20 oz",2.92,20.0,oz,0.146,False,
+FRUIT-05,walmart,walmart-kona,hawaii,15001,2026-04-21,"Dole Pineapple Chunks in Juice, 20 oz",2.92,20.0,oz,0.146,False,
+FRUIT-08,walmart,walmart-hilo,hawaii,15001,2026-04-21,"Tropicana No Pulp Orange Juice, 89 oz",9.92,89.0,fl_oz,0.1115,False,
+FRUIT-08,walmart,walmart-kona,hawaii,15001,2026-04-21,"Tropicana No Pulp Orange Juice, 89 oz",9.92,89.0,fl_oz,0.1115,False,
+GRAIN-01,walmart,walmart-hilo,hawaii,15001,2026-04-21,"Hinode Calrose Rice, 20 lb",17.98,20.0,lb,0.899,False,
+GRAIN-01,walmart,walmart-kona,hawaii,15001,2026-04-21,"Hinode Calrose Rice, 20 lb",17.98,20.0,lb,0.899,False,
+GRAIN-03,walmart,walmart-hilo,hawaii,15001,2026-04-21,"Oven Joy White Bread, 22 oz",5.78,22.0,oz,0.2627,True,Oven Joy brand; substitution for store bread
+GRAIN-03,walmart,walmart-kona,hawaii,15001,2026-04-21,"Oven Joy White Bread, 22 oz",5.78,22.0,oz,0.2627,True,Oven Joy brand; substitution for store bread
+GRAIN-05,walmart,walmart-hilo,hawaii,15001,2026-04-21,"Cheerios, 18 oz",5.82,18.0,oz,0.3233,False,
+GRAIN-05,walmart,walmart-kona,hawaii,15001,2026-04-21,"Cheerios, 18 oz",5.82,18.0,oz,0.3233,False,
+GRAIN-07,walmart,walmart-hilo,hawaii,15001,2026-04-21,"Barilla Spaghetti, 16 oz",2.22,16.0,oz,0.1388,False,
+GRAIN-07,walmart,walmart-kona,hawaii,15001,2026-04-21,"Barilla Spaghetti, 16 oz",2.22,16.0,oz,0.1388,False,
+MEAT-01,walmart,walmart-hilo,hawaii,15001,2026-04-21,"Ground beef 85/15, ~1 lb",7.73,1.0,lb,7.73,True,85/15 lean; substitution for 80/20
+MEAT-01,walmart,walmart-kona,hawaii,15001,2026-04-21,"Ground beef 85/15, ~1 lb",7.73,1.0,lb,7.73,True,85/15 lean; substitution for 80/20
+MEAT-04,walmart,walmart-hilo,hawaii,15001,2026-04-21,"Great Value chicken breast, 5 lb",15.12,5.0,lb,3.024,False,
+MEAT-04,walmart,walmart-kona,hawaii,15001,2026-04-21,"Great Value chicken breast, 5 lb",15.12,5.0,lb,3.024,False,
+MEAT-08,walmart,walmart-hilo,hawaii,15001,2026-04-21,"SPAM Classic, 12 oz",3.68,12.0,oz,0.3067,False,
+MEAT-08,walmart,walmart-kona,hawaii,15001,2026-04-21,"SPAM Classic, 12 oz",3.68,12.0,oz,0.3067,False,
+PREP-01,walmart,walmart-hilo,hawaii,15001,2026-04-21,"Campbell's Chicken Noodle Soup, 10.75 oz",5.37,10.75,oz,0.4995,False,
+PREP-01,walmart,walmart-kona,hawaii,15001,2026-04-21,"Campbell's Chicken Noodle Soup, 10.75 oz",5.37,10.75,oz,0.4995,False,
+PREP-03,walmart,walmart-hilo,hawaii,15001,2026-04-21,"Maruchan Ramen Beef Flavor, 3 oz",0.58,3.0,oz,0.1933,True,Beef flavor 3 oz; substitution for Soy Sauce 2.25 oz
+PREP-03,walmart,walmart-kona,hawaii,15001,2026-04-21,"Maruchan Ramen Beef Flavor, 3 oz",0.58,3.0,oz,0.1933,True,Beef flavor 3 oz; substitution for Soy Sauce 2.25 oz
+PROT-04,walmart,walmart-hilo,hawaii,15001,2026-04-21,"Jif Creamy Peanut Butter, 16 oz",3.78,16.0,oz,0.2362,False,
+PROT-04,walmart,walmart-kona,hawaii,15001,2026-04-21,"Jif Creamy Peanut Butter, 16 oz",3.78,16.0,oz,0.2362,False,
+SWEET-01,walmart,walmart-hilo,hawaii,15001,2026-04-21,"C&H Granulated Sugar, 4 lb",3.46,4.0,lb,0.865,False,
+SWEET-01,walmart,walmart-kona,hawaii,15001,2026-04-21,"C&H Granulated Sugar, 4 lb",3.46,4.0,lb,0.865,False,
+VEG-01,walmart,walmart-hilo,hawaii,15001,2026-04-21,"Russet potatoes, 5 lb bag",4.76,5.0,lb,0.952,False,
+VEG-01,walmart,walmart-kona,hawaii,15001,2026-04-21,"Russet potatoes, 5 lb bag",4.76,5.0,lb,0.952,False,
+VEG-04,walmart,walmart-hilo,hawaii,15001,2026-04-21,"Marketside Baby Spinach, 5 oz",2.76,5.0,oz,0.552,False,5 oz package (vs 6 oz at Foodland)
+VEG-04,walmart,walmart-kona,hawaii,15001,2026-04-21,"Marketside Baby Spinach, 5 oz",2.76,5.0,oz,0.552,False,5 oz package (vs 6 oz at Foodland)
+VEG-06,walmart,walmart-hilo,hawaii,15001,2026-04-21,"Red Roma tomatoes, 1 lb",2.08,1.0,lb,2.08,False,
+VEG-06,walmart,walmart-kona,hawaii,15001,2026-04-21,"Red Roma tomatoes, 1 lb",2.08,1.0,lb,2.08,False,
+VEG-08,walmart,walmart-hilo,hawaii,15001,2026-04-21,"Del Monte Whole Kernel Corn, 15.25 oz",2.17,15.25,oz,0.1423,False,
+VEG-08,walmart,walmart-kona,hawaii,15001,2026-04-21,"Del Monte Whole Kernel Corn, 15.25 oz",2.17,15.25,oz,0.1423,False,
+BEV-03,walmart,walmart-honolulu,honolulu,15003,2026-04-21,"Folgers Classic Roast, 25.9 oz",20.38,25.9,oz,0.7869,False,
+DAIRY-01,walmart,walmart-honolulu,honolulu,15003,2026-04-21,"Great Value Whole Milk, 1 gallon",6.08,128.0,fl_oz,0.0475,False,
+DAIRY-03,walmart,walmart-honolulu,honolulu,15003,2026-04-21,Kraft Singles American Cheese Slices,4.63,12.0,oz,0.3858,False,Size not labeled; assumed 12 oz (16-count)
+DAIRY-06,walmart,walmart-honolulu,honolulu,15003,2026-04-21,"Land O'Lakes Salted Butter, 1 lb",5.34,16.0,oz,0.3337,False,
+DAIRY-07,walmart,walmart-honolulu,honolulu,15003,2026-04-21,"Great Value Eggs, Large, 12 each",3.74,12.0,ct,0.3117,False,
+FAT-01,walmart,walmart-honolulu,honolulu,15003,2026-04-21,"Wesson Vegetable Oil, 40 oz",5.5,40.0,fl_oz,0.1375,False,
+FISH-01,walmart,walmart-honolulu,honolulu,15003,2026-04-21,"StarKist Chunk Light Tuna, 5 oz",1.13,5.0,oz,0.226,False,
+FRUIT-01,walmart,walmart-honolulu,honolulu,15003,2026-04-21,"Bananas, 1 lb",1.08,1.0,lb,1.08,False,
+FRUIT-03,walmart,walmart-honolulu,honolulu,15003,2026-04-21,"Fuji Apple, 1 lb",1.87,1.0,lb,1.87,False,
+FRUIT-05,walmart,walmart-honolulu,honolulu,15003,2026-04-21,"Dole Pineapple Chunks in Juice, 20 oz",2.92,20.0,oz,0.146,False,
+FRUIT-08,walmart,walmart-honolulu,honolulu,15003,2026-04-21,"Tropicana No Pulp Orange Juice, 89 oz",9.92,89.0,fl_oz,0.1115,False,
+GRAIN-01,walmart,walmart-honolulu,honolulu,15003,2026-04-21,"Hinode Calrose Rice, 20 lb",17.98,20.0,lb,0.899,False,
+GRAIN-03,walmart,walmart-honolulu,honolulu,15003,2026-04-21,"Oven Joy White Bread, 22 oz",5.78,22.0,oz,0.2627,True,Oven Joy brand; substitution for store bread
+GRAIN-05,walmart,walmart-honolulu,honolulu,15003,2026-04-21,"Cheerios, 18 oz",5.82,18.0,oz,0.3233,False,
+GRAIN-07,walmart,walmart-honolulu,honolulu,15003,2026-04-21,"Barilla Spaghetti, 16 oz",2.22,16.0,oz,0.1388,False,
+MEAT-01,walmart,walmart-honolulu,honolulu,15003,2026-04-21,"Ground beef 85/15, ~1 lb",7.73,1.0,lb,7.73,True,85/15 lean; substitution for 80/20
+MEAT-04,walmart,walmart-honolulu,honolulu,15003,2026-04-21,"Great Value chicken breast, 5 lb",15.12,5.0,lb,3.024,False,
+MEAT-08,walmart,walmart-honolulu,honolulu,15003,2026-04-21,"SPAM Classic, 12 oz",3.68,12.0,oz,0.3067,False,
+PREP-01,walmart,walmart-honolulu,honolulu,15003,2026-04-21,"Campbell's Chicken Noodle Soup, 10.75 oz",5.37,10.75,oz,0.4995,False,
+PREP-03,walmart,walmart-honolulu,honolulu,15003,2026-04-21,"Maruchan Ramen Beef Flavor, 3 oz",0.58,3.0,oz,0.1933,True,Beef flavor 3 oz; substitution for Soy Sauce 2.25 oz
+PROT-04,walmart,walmart-honolulu,honolulu,15003,2026-04-21,"Jif Creamy Peanut Butter, 16 oz",3.78,16.0,oz,0.2362,False,
+SWEET-01,walmart,walmart-honolulu,honolulu,15003,2026-04-21,"C&H Granulated Sugar, 4 lb",3.46,4.0,lb,0.865,False,
+VEG-01,walmart,walmart-honolulu,honolulu,15003,2026-04-21,"Russet potatoes, 5 lb bag",4.76,5.0,lb,0.952,False,
+VEG-04,walmart,walmart-honolulu,honolulu,15003,2026-04-21,"Marketside Baby Spinach, 5 oz",2.76,5.0,oz,0.552,False,5 oz package (vs 6 oz at Foodland)
+VEG-06,walmart,walmart-honolulu,honolulu,15003,2026-04-21,"Red Roma tomatoes, 1 lb",2.08,1.0,lb,2.08,False,
+VEG-08,walmart,walmart-honolulu,honolulu,15003,2026-04-21,"Del Monte Whole Kernel Corn, 15.25 oz",2.17,15.25,oz,0.1423,False,
+BEV-03,walmart,walmart-kauai,kauai,15007,2026-04-21,"Folgers Classic Roast, 25.9 oz",20.38,25.9,oz,0.7869,False,
+DAIRY-01,walmart,walmart-kauai,kauai,15007,2026-04-21,"Great Value Whole Milk, 1 gallon",6.08,128.0,fl_oz,0.0475,False,
+DAIRY-03,walmart,walmart-kauai,kauai,15007,2026-04-21,Kraft Singles American Cheese Slices,4.63,12.0,oz,0.3858,False,Size not labeled; assumed 12 oz (16-count)
+DAIRY-06,walmart,walmart-kauai,kauai,15007,2026-04-21,"Land O'Lakes Salted Butter, 1 lb",5.34,16.0,oz,0.3337,False,
+DAIRY-07,walmart,walmart-kauai,kauai,15007,2026-04-21,"Great Value Eggs, Large, 12 each",3.74,12.0,ct,0.3117,False,
+FAT-01,walmart,walmart-kauai,kauai,15007,2026-04-21,"Wesson Vegetable Oil, 40 oz",5.5,40.0,fl_oz,0.1375,False,
+FISH-01,walmart,walmart-kauai,kauai,15007,2026-04-21,"StarKist Chunk Light Tuna, 5 oz",1.13,5.0,oz,0.226,False,
+FRUIT-01,walmart,walmart-kauai,kauai,15007,2026-04-21,"Bananas, 1 lb",1.18,1.0,lb,1.18,False,
+FRUIT-03,walmart,walmart-kauai,kauai,15007,2026-04-21,"Fuji Apple, 1 lb",1.87,1.0,lb,1.87,False,
+FRUIT-05,walmart,walmart-kauai,kauai,15007,2026-04-21,"Dole Pineapple Chunks in Juice, 20 oz",2.92,20.0,oz,0.146,False,
+FRUIT-08,walmart,walmart-kauai,kauai,15007,2026-04-21,"Tropicana No Pulp Orange Juice, 89 oz",9.92,89.0,fl_oz,0.1115,False,
+GRAIN-01,walmart,walmart-kauai,kauai,15007,2026-04-21,"Hinode Calrose Rice, 20 lb",17.98,20.0,lb,0.899,False,
+GRAIN-03,walmart,walmart-kauai,kauai,15007,2026-04-21,"Oven Joy White Bread, 22 oz",5.78,22.0,oz,0.2627,True,Oven Joy brand; substitution for store bread
+GRAIN-05,walmart,walmart-kauai,kauai,15007,2026-04-21,"Cheerios, 18 oz",5.82,18.0,oz,0.3233,False,
+GRAIN-07,walmart,walmart-kauai,kauai,15007,2026-04-21,"Barilla Spaghetti, 16 oz",2.22,16.0,oz,0.1388,False,
+MEAT-01,walmart,walmart-kauai,kauai,15007,2026-04-21,"Ground beef 85/15, ~1 lb",7.73,1.0,lb,7.73,True,85/15 lean; substitution for 80/20
+MEAT-04,walmart,walmart-kauai,kauai,15007,2026-04-21,"Great Value chicken breast, 5 lb",15.12,5.0,lb,3.024,False,
+MEAT-08,walmart,walmart-kauai,kauai,15007,2026-04-21,"SPAM Classic, 12 oz",3.68,12.0,oz,0.3067,False,
+PREP-01,walmart,walmart-kauai,kauai,15007,2026-04-21,"Campbell's Chicken Noodle Soup, 10.75 oz",5.37,10.75,oz,0.4995,False,
+PREP-03,walmart,walmart-kauai,kauai,15007,2026-04-21,"Maruchan Ramen Beef Flavor, 3 oz",0.58,3.0,oz,0.1933,True,Beef flavor 3 oz; substitution for Soy Sauce 2.25 oz
+PROT-04,walmart,walmart-kauai,kauai,15007,2026-04-21,"Jif Creamy Peanut Butter, 16 oz",3.78,16.0,oz,0.2362,False,
+SWEET-01,walmart,walmart-kauai,kauai,15007,2026-04-21,"C&H Granulated Sugar, 4 lb",3.46,4.0,lb,0.865,False,
+VEG-01,walmart,walmart-kauai,kauai,15007,2026-04-21,"Russet potatoes, 5 lb bag",4.76,5.0,lb,0.952,False,
+VEG-04,walmart,walmart-kauai,kauai,15007,2026-04-21,"Marketside Baby Spinach, 5 oz",2.76,5.0,oz,0.552,False,5 oz package (vs 6 oz at Foodland)
+VEG-06,walmart,walmart-kauai,kauai,15007,2026-04-21,"Red Roma tomatoes, 1 lb",2.08,1.0,lb,2.08,False,
+VEG-08,walmart,walmart-kauai,kauai,15007,2026-04-21,"Del Monte Whole Kernel Corn, 15.25 oz",2.17,15.25,oz,0.1423,False,
+BEV-03,walmart,walmart-maui,maui,15009,2026-04-21,"Folgers Classic Roast, 25.9 oz",20.38,25.9,oz,0.7869,False,
+DAIRY-01,walmart,walmart-maui,maui,15009,2026-04-21,"Great Value Whole Milk, 1 gallon",6.08,128.0,fl_oz,0.0475,False,
+DAIRY-03,walmart,walmart-maui,maui,15009,2026-04-21,Kraft Singles American Cheese Slices,4.63,12.0,oz,0.3858,False,Size not labeled; assumed 12 oz (16-count)
+DAIRY-06,walmart,walmart-maui,maui,15009,2026-04-21,"Land O'Lakes Salted Butter, 1 lb",5.34,16.0,oz,0.3337,False,
+DAIRY-07,walmart,walmart-maui,maui,15009,2026-04-21,"Great Value Eggs, Large, 12 each",3.74,12.0,ct,0.3117,False,
+FAT-01,walmart,walmart-maui,maui,15009,2026-04-21,"Wesson Vegetable Oil, 40 oz",5.5,40.0,fl_oz,0.1375,False,
+FISH-01,walmart,walmart-maui,maui,15009,2026-04-21,"StarKist Chunk Light Tuna, 5 oz",1.13,5.0,oz,0.226,False,
+FRUIT-01,walmart,walmart-maui,maui,15009,2026-04-21,"Bananas, 1 lb",1.18,1.0,lb,1.18,False,
+FRUIT-03,walmart,walmart-maui,maui,15009,2026-04-21,"Fuji Apple, 1 lb",1.87,1.0,lb,1.87,False,
+FRUIT-05,walmart,walmart-maui,maui,15009,2026-04-21,"Dole Pineapple Chunks in Juice, 20 oz",2.92,20.0,oz,0.146,False,
+FRUIT-08,walmart,walmart-maui,maui,15009,2026-04-21,"Tropicana No Pulp Orange Juice, 89 oz",9.92,89.0,fl_oz,0.1115,False,
+GRAIN-01,walmart,walmart-maui,maui,15009,2026-04-21,"Hinode Calrose Rice, 20 lb",17.98,20.0,lb,0.899,False,
+GRAIN-03,walmart,walmart-maui,maui,15009,2026-04-21,"Oven Joy White Bread, 22 oz",5.78,22.0,oz,0.2627,True,Oven Joy brand; substitution for store bread
+GRAIN-05,walmart,walmart-maui,maui,15009,2026-04-21,"Cheerios, 18 oz",5.82,18.0,oz,0.3233,False,
+GRAIN-07,walmart,walmart-maui,maui,15009,2026-04-21,"Barilla Spaghetti, 16 oz",2.22,16.0,oz,0.1388,False,
+MEAT-01,walmart,walmart-maui,maui,15009,2026-04-21,"Ground beef 85/15, ~1 lb",7.73,1.0,lb,7.73,True,85/15 lean; substitution for 80/20
+MEAT-04,walmart,walmart-maui,maui,15009,2026-04-21,"Great Value chicken breast, 5 lb",15.12,5.0,lb,3.024,False,
+MEAT-08,walmart,walmart-maui,maui,15009,2026-04-21,"SPAM Classic, 12 oz",3.68,12.0,oz,0.3067,False,
+PREP-01,walmart,walmart-maui,maui,15009,2026-04-21,"Campbell's Chicken Noodle Soup, 10.75 oz",5.37,10.75,oz,0.4995,False,
+PREP-03,walmart,walmart-maui,maui,15009,2026-04-21,"Maruchan Ramen Beef Flavor, 3 oz",0.58,3.0,oz,0.1933,True,Beef flavor 3 oz; substitution for Soy Sauce 2.25 oz
+PROT-04,walmart,walmart-maui,maui,15009,2026-04-21,"Jif Creamy Peanut Butter, 16 oz",3.78,16.0,oz,0.2362,False,
+SWEET-01,walmart,walmart-maui,maui,15009,2026-04-21,"C&H Granulated Sugar, 4 lb",3.46,4.0,lb,0.865,False,
+VEG-01,walmart,walmart-maui,maui,15009,2026-04-21,"Russet potatoes, 5 lb bag",4.76,5.0,lb,0.952,False,
+VEG-04,walmart,walmart-maui,maui,15009,2026-04-21,"Marketside Baby Spinach, 5 oz",2.76,5.0,oz,0.552,False,5 oz package (vs 6 oz at Foodland)
+VEG-06,walmart,walmart-maui,maui,15009,2026-04-21,"Red Roma tomatoes, 1 lb",2.08,1.0,lb,2.08,False,
+VEG-08,walmart,walmart-maui,maui,15009,2026-04-21,"Del Monte Whole Kernel Corn, 15.25 oz",2.17,15.25,oz,0.1423,False,
