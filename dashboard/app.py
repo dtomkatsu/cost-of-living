@@ -152,6 +152,8 @@ st.markdown(f"""
     color: white;
     margin-top: 10px;
   }}
+  .badge-ok   {{ background: rgba(46, 160, 67, 0.88); }}
+  .badge-warn {{ background: rgba(230, 150, 40, 0.92); }}
 </style>
 """, unsafe_allow_html=True)
 
@@ -165,11 +167,14 @@ def load_data() -> dict:
 
 
 data = load_data()
-basket       = data["basket"]
-county_prices = data["county_prices"]
-estimates    = data["estimates"]
-target_date  = data["target_date"]
-GET_RATE     = data["get_tax_rate"]
+basket           = data["basket"]
+county_prices    = data["county_prices"]
+estimates        = data["estimates"]
+target_date      = data["target_date"]
+GET_RATE         = data["get_tax_rate"]
+cpi_status       = data.get("cpi_status", {})
+county_coverage  = data.get("county_coverage", {})
+cov_threshold    = data.get("coverage_threshold", 0.30)
 
 # Build DataFrames
 # --- County basket totals ---
@@ -230,8 +235,14 @@ with st.sidebar:
     )
 
     st.markdown("---")
+    if cpi_status.get("is_interpolated"):
+        latest = cpi_status.get("latest_actual_period") or "n/a"
+        cpi_line = f"Interpolated (latest BLS: {latest})"
+    else:
+        cpi_line = "Actual BLS CPI reading"
     st.caption(
         f"Data as of **{target_date.strftime('%B %Y')}**  \n"
+        f"CPI: {cpi_line}  \n"
         f"Prices are member/loyalty rates  \n"
         f"+ {GET_RATE*100:.1f}% GET tax applied"
     )
@@ -239,11 +250,18 @@ with st.sidebar:
 # ---------------------------------------------------------------------------
 # HERO BANNER
 # ---------------------------------------------------------------------------
+if cpi_status.get("is_interpolated"):
+    _latest = cpi_status.get("latest_actual_period") or "prior period"
+    cpi_badge_html = f'<span class="badge badge-warn">📈 Interpolated from {_latest}</span>'
+else:
+    cpi_badge_html = '<span class="badge badge-ok">✓ Actual BLS CPI</span>'
+
 st.markdown(f"""
 <div class="hero">
   <h1>🌺 Hawaii Cost of Living</h1>
   <p>Grocery Price Index by County &nbsp;·&nbsp; Member Prices + 4.5% GET Tax</p>
   <span class="badge">📅 {target_date.strftime('%B %Y')}</span>
+  {cpi_badge_html}
   <span class="badge">🛒 26-Item Basket</span>
   <span class="badge">🏪 Foodland · Safeway · Walmart</span>
 </div>
@@ -260,6 +278,16 @@ for col, county in zip(cols, counties_sorted):
     total = county_totals_tax.get(county, 0)
     delta = round(total - honolulu_total, 2) if county != "honolulu" else None
     delta_str = f"+${delta:.2f} vs Honolulu" if delta and delta > 0 else None
+    cov = county_coverage.get(county)
+    if cov is not None:
+        if cov < cov_threshold:
+            cov_label = f"⚠️ {cov:.0%} market coverage"
+        elif cov < 0.50:
+            cov_label = f"🟡 {cov:.0%} market coverage"
+        else:
+            cov_label = f"🟢 {cov:.0%} market coverage"
+    else:
+        cov_label = ""
     with col:
         st.metric(
             label=COUNTY_LABELS[county],
@@ -267,6 +295,8 @@ for col, county in zip(cols, counties_sorted):
             delta=delta_str,
             delta_color="inverse",
         )
+        if cov_label:
+            st.caption(cov_label)
 
 st.markdown("---")
 

@@ -44,26 +44,11 @@ def compute_weighted_county_prices(
             # No weights or single chain — simple mean
             avg_price = sum(chain_avg.values()) / len(chain_avg)
         else:
-            # Look up weights for chains that have price data
-            raw_weights = {}
-            fallback = False
-            for chain in chain_avg:
-                w = store_weights.get_weight(county, chain)
-                if w is None:
-                    fallback = True
-                    break
-                raw_weights[chain] = w
-
-            if fallback or sum(raw_weights.values()) == 0:
-                # Unknown chain or zero weights — fall back to equal weighting
-                avg_price = sum(chain_avg.values()) / len(chain_avg)
-            else:
-                # Renormalize weights to sum to 1.0 across present chains
-                total_w = sum(raw_weights.values())
-                avg_price = sum(
-                    chain_avg[c] * (raw_weights[c] / total_w)
-                    for c in chain_avg
-                )
+            # Use effective_weights() which absorbs proxy chain weights into
+            # covered chains before renormalizing. Falls back to equal weights
+            # if no county data exists.
+            eff_weights = store_weights.effective_weights(county, list(chain_avg.keys()))
+            avg_price = sum(chain_avg[c] * eff_weights[c] for c in chain_avg)
 
         # Pick a representative AdjustedPrice as template for metadata
         template = next(iter(next(iter(chain_data.values()))))

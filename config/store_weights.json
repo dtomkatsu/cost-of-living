@@ -6,6 +6,24 @@
     "snap_retailer_locator": "https://www.fns.usda.gov/snap/retailer-locator/data",
     "census_cbp": "https://api.census.gov/data/2023/cbp"
   },
+  "proxy_chains": {
+    "kta":         "foodland",
+    "big_save":    "walmart",
+    "times":       "safeway",
+    "sack_n_save": "walmart",
+    "foodland_farms": "foodland",
+    "don_quijote": "walmart",
+    "down_to_earth": "foodland"
+  },
+  "proxy_notes": {
+    "kta": "KTA Super Stores — Hawaii regional full-service supermarket, priced similarly to Foodland",
+    "big_save": "Big Save Markets — Kauai value-oriented chain, priced similarly to Walmart",
+    "times": "Times Supermarket — Oahu/Maui regional chain, priced similarly to Safeway",
+    "sack_n_save": "Sack-N-Save — discount format, priced similarly to Walmart",
+    "foodland_farms": "Foodland Farms — upscale Foodland banner, proxied to Foodland for conservatism",
+    "don_quijote": "Don Quijote — discount/variety format, proxied to Walmart",
+    "down_to_earth": "Down to Earth — organic/natural, proxied to Foodland as nearest full-service"
+  },
   "weights": {
     "hawaii": {
       "costco": 0.0955,

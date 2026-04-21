@@ -140,6 +140,7 @@ class StoreWeightsConfig:
     """Loaded store market share weights per chain per county."""
 
     weights: dict[str, dict[str, float]]  # county -> chain -> weight
+    proxy_chains: dict[str, str]           # uncovered chain -> covered chain to absorb its weight
 
     @classmethod
     def load(cls, path: Path | None = None) -> StoreWeightsConfig | None:
@@ -150,7 +151,10 @@ class StoreWeightsConfig:
             return None
         with open(path) as f:
             data = json.load(f)
-        return cls(weights=data["weights"])
+        return cls(
+            weights=data["weights"],
+            proxy_chains=data.get("proxy_chains", {}),
+        )
 
     def get_weight(self, county: str, chain: str) -> float | None:
         """Get the market share weight for a chain in a county.
@@ -161,6 +165,47 @@ class StoreWeightsConfig:
         if county_weights is None:
             return None
         return county_weights.get(chain)
+
+    def effective_weights(self, county: str, present_chains: list[str]) -> dict[str, float]:
+        """Return renormalized weights for chains that have price data.
+
+        For each chain in the county that is NOT in present_chains, its weight
+        is redistributed to its proxy (if configured) or dropped proportionally.
+        Only weights for chains in present_chains are returned; they sum to 1.0.
+        """
+        county_weights = self.weights.get(county, {})
+        if not county_weights:
+            # No weights for this county — equal weighting
+            return {c: 1.0 / len(present_chains) for c in present_chains}
+
+        # Accumulate weights for each present chain, absorbing proxied chains.
+        accumulated: dict[str, float] = {c: 0.0 for c in present_chains}
+        for chain, w in county_weights.items():
+            if chain in present_chains:
+                accumulated[chain] += w
+            else:
+                proxy = self.proxy_chains.get(chain)
+                if proxy and proxy in present_chains:
+                    accumulated[proxy] += w
+                # else: chain is uncovered and has no proxy → weight dropped
+
+        total = sum(accumulated.values())
+        if total == 0:
+            return {c: 1.0 / len(present_chains) for c in present_chains}
+
+        return {c: w / total for c, w in accumulated.items()}
+
+    def coverage(self, county: str, present_chains: list[str]) -> float:
+        """Fraction of market weight covered (directly or via proxy) by present_chains."""
+        county_weights = self.weights.get(county, {})
+        if not county_weights:
+            return 1.0
+        covered = sum(
+            w for chain, w in county_weights.items()
+            if chain in present_chains
+            or self.proxy_chains.get(chain) in present_chains
+        )
+        return covered / sum(county_weights.values())
 
 
 @dataclass
