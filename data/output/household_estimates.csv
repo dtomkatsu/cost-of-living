@@ -1,17 +1,17 @@
 household_type,household_label,county,geoid,date,basket_total_pretax,household_cost_pretax,household_cost_with_tax,effective_factor,get_tax_rate
-single_adult_female,"Single adult (female, 19-50)",hawaii,15001,2026-04-15,162.3,48.37,50.55,0.298,0.045
-single_adult_female,"Single adult (female, 19-50)",honolulu,15003,2026-04-15,165.24,49.24,51.46,0.298,0.045
-single_adult_female,"Single adult (female, 19-50)",kauai,15007,2026-04-15,162.3,48.37,50.55,0.298,0.045
-single_adult_female,"Single adult (female, 19-50)",maui,15009,2026-04-15,175.69,52.36,54.72,0.298,0.045
-single_adult_male,"Single adult (male, 19-50)",hawaii,15001,2026-04-15,162.3,60.54,63.26,0.373,0.045
-single_adult_male,"Single adult (male, 19-50)",honolulu,15003,2026-04-15,165.24,61.63,64.4,0.373,0.045
-single_adult_male,"Single adult (male, 19-50)",kauai,15007,2026-04-15,162.3,60.54,63.26,0.373,0.045
-single_adult_male,"Single adult (male, 19-50)",maui,15009,2026-04-15,175.69,65.53,68.48,0.373,0.045
-single_parent_one_child,Single parent + 1 child (6-8),hawaii,15001,2026-04-15,162.3,83.42,87.17,0.514,0.045
-single_parent_one_child,Single parent + 1 child (6-8),honolulu,15003,2026-04-15,165.24,84.93,88.75,0.514,0.045
-single_parent_one_child,Single parent + 1 child (6-8),kauai,15007,2026-04-15,162.3,83.42,87.17,0.514,0.045
-single_parent_one_child,Single parent + 1 child (6-8),maui,15009,2026-04-15,175.69,90.3,94.36,0.514,0.045
-two_adults_two_children,Two adults + two children,hawaii,15001,2026-04-15,162.3,162.3,169.6,1.0,0.045
-two_adults_two_children,Two adults + two children,honolulu,15003,2026-04-15,165.24,165.24,172.68,1.0,0.045
-two_adults_two_children,Two adults + two children,kauai,15007,2026-04-15,162.3,162.3,169.6,1.0,0.045
-two_adults_two_children,Two adults + two children,maui,15009,2026-04-15,175.69,175.69,183.6,1.0,0.045
+single_adult_female,"Single adult (female, 19-50)",hawaii,15001,2026-04-15,168.53,50.22,52.48,0.298,0.045
+single_adult_female,"Single adult (female, 19-50)",honolulu,15003,2026-04-15,170.75,50.88,53.17,0.298,0.045
+single_adult_female,"Single adult (female, 19-50)",kauai,15007,2026-04-15,171.97,51.25,53.56,0.298,0.045
+single_adult_female,"Single adult (female, 19-50)",maui,15009,2026-04-15,179.22,53.41,55.81,0.298,0.045
+single_adult_male,"Single adult (male, 19-50)",hawaii,15001,2026-04-15,168.53,62.86,65.69,0.373,0.045
+single_adult_male,"Single adult (male, 19-50)",honolulu,15003,2026-04-15,170.75,63.69,66.56,0.373,0.045
+single_adult_male,"Single adult (male, 19-50)",kauai,15007,2026-04-15,171.97,64.14,67.03,0.373,0.045
+single_adult_male,"Single adult (male, 19-50)",maui,15009,2026-04-15,179.22,66.85,69.86,0.373,0.045
+single_parent_one_child,Single parent + 1 child (6-8),hawaii,15001,2026-04-15,168.53,86.62,90.52,0.514,0.045
+single_parent_one_child,Single parent + 1 child (6-8),honolulu,15003,2026-04-15,170.75,87.77,91.72,0.514,0.045
+single_parent_one_child,Single parent + 1 child (6-8),kauai,15007,2026-04-15,171.97,88.39,92.37,0.514,0.045
+single_parent_one_child,Single parent + 1 child (6-8),maui,15009,2026-04-15,179.22,92.12,96.27,0.514,0.045
+two_adults_two_children,Two adults + two children,hawaii,15001,2026-04-15,168.53,168.53,176.11,1.0,0.045
+two_adults_two_children,Two adults + two children,honolulu,15003,2026-04-15,170.75,170.75,178.43,1.0,0.045
+two_adults_two_children,Two adults + two children,kauai,15007,2026-04-15,171.97,171.97,179.71,1.0,0.045
+two_adults_two_children,Two adults + two children,maui,15009,2026-04-15,179.22,179.22,187.28,1.0,0.045

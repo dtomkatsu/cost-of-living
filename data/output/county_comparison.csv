@@ -1,29 +1,29 @@
 slot_id,item,hawaii,honolulu,kauai,maui,unit
-GRAIN-01,Calrose rice (Hinode 20 lb at Foodland),19.34,18.60,19.34,20.45,/lb
-GRAIN-03,"White sandwich bread, ~22 oz",5.73,5.42,5.73,5.69,/oz
-GRAIN-05,"Cheerios, 12 oz",7.25,7.77,7.25,8.42,/oz
-GRAIN-07,"Barilla Spaghetti, 16 oz",2.73,3.00,2.73,3.14,/oz
-VEG-01,"Russet potatoes, 5 lb bag",5.17,5.39,5.17,5.51,/lb
-VEG-04,"Baby spinach, 6 oz bag",4.07,4.63,4.07,5.14,/oz
-VEG-06,Roma tomatoes,2.96,3.44,2.96,3.69,/lb
-VEG-08,"Del Monte Whole Kernel Corn, 15.25 oz",2.38,2.49,2.38,2.55,/oz
-FRUIT-01,Bananas,1.32,1.27,1.32,1.44,/lb
-FRUIT-03,Fuji apples,2.19,2.25,2.19,2.46,/lb
-FRUIT-05,"Dole Pineapple Chunks in Juice, 20 oz",3.30,3.27,3.30,3.61,/oz
-FRUIT-08,"Tropicana No Pulp Orange Juice, 89 oz",11.23,11.50,11.23,12.31,/fl_oz
-DAIRY-01,"Whole milk, gallon — any brand",6.84,7.26,6.84,7.47,/fl_oz
-DAIRY-03,"Kraft Singles American Cheese Slices, 12 oz (16 slices)",4.96,4.97,4.96,5.23,/oz
-DAIRY-06,"Land O'Lakes Salted Butter, 1 lb",7.02,7.59,7.02,8.40,/oz
-DAIRY-07,"Large eggs, dozen — any brand",6.03,6.97,6.03,7.90,/ct
-MEAT-01,Ground beef 80/20,7.83,7.89,7.83,7.92,/lb
-MEAT-04,Boneless skinless chicken breast,11.39,9.38,11.39,8.33,/lb
-MEAT-08,"SPAM Classic, 12 oz",3.83,3.75,3.83,3.96,/oz
-FISH-01,"StarKist Chunk Light Tuna in Water, 5 oz",1.46,1.60,1.46,1.73,/oz
-PROT-04,"Jif Creamy Peanut Butter, 16 oz",4.28,4.40,4.28,4.69,/oz
-FAT-01,"Vegetable oil, ~40-48 fl oz",7.44,8.08,7.44,9.03,/fl_oz
-BEV-03,Folgers Classic Roast ground coffee (25.9 oz at Foodland),22.78,23.22,22.78,24.75,/oz
-SWEET-01,"C&H Granulated Sugar, 4 lb",5.66,6.49,5.66,7.46,/lb
-PREP-01,"Campbell's Chicken Noodle Soup, condensed, 10.75 oz",4.34,3.78,4.34,3.49,/oz
-PREP-03,"Maruchan Ramen Soy Sauce, 2.25 oz packet",0.77,0.83,0.77,0.92,/oz
-,SUBTOTAL (pre-tax),162.30,165.24,162.30,175.69,
-,TOTAL (with 4.5% GET tax),169.60,172.68,169.60,183.60,
+GRAIN-01,Calrose rice (Hinode 20 lb at Foodland),21.24,20.94,22.29,22.78,/lb
+GRAIN-03,"White sandwich bread, ~22 oz",5.66,5.23,5.62,5.61,/oz
+GRAIN-05,"Cheerios, 12 oz",8.26,8.95,8.82,9.42,/oz
+GRAIN-07,"Barilla Spaghetti, 16 oz",2.95,3.17,3.07,3.29,/oz
+VEG-01,"Russet potatoes, 5 lb bag",5.41,5.65,5.54,5.71,/lb
+VEG-04,"Baby spinach, 6 oz bag",4.90,5.65,5.37,5.92,/oz
+VEG-06,Roma tomatoes,3.54,3.68,3.86,4.24,/lb
+VEG-08,"Del Monte Whole Kernel Corn, 15.25 oz",2.84,3.14,3.09,3.16,/oz
+FRUIT-01,Bananas,1.37,0.93,1.40,1.46,/lb
+FRUIT-03,Fuji apples,2.71,2.79,2.99,3.10,/lb
+FRUIT-05,"Dole Pineapple Chunks in Juice, 20 oz",3.78,4.02,4.05,4.19,/oz
+FRUIT-08,"Tropicana No Pulp Orange Juice, 89 oz",10.88,10.84,10.68,11.33,/fl_oz
+DAIRY-01,"Whole milk, gallon — any brand",7.17,7.57,7.35,7.69,/fl_oz
+DAIRY-03,"Kraft Singles American Cheese Slices, 12 oz (16 slices)",5.82,6.29,6.31,6.39,/oz
+DAIRY-06,"Land O'Lakes Salted Butter, 1 lb",7.30,7.76,7.45,8.23,/oz
+DAIRY-07,"Large eggs, dozen — any brand",6.30,6.76,6.46,7.52,/ct
+MEAT-01,Ground beef 80/20,8.74,9.24,9.24,9.21,/lb
+MEAT-04,Boneless skinless chicken breast,9.27,7.03,8.10,6.50,/lb
+MEAT-08,"SPAM Classic, 12 oz",3.88,3.77,3.90,3.97,/oz
+FISH-01,"StarKist Chunk Light Tuna in Water, 5 oz",1.61,1.77,1.69,1.84,/oz
+PROT-04,"Jif Creamy Peanut Butter, 16 oz",4.34,4.44,4.37,4.61,/oz
+FAT-01,"Vegetable oil, ~40-48 fl oz",6.89,6.96,6.58,7.54,/fl_oz
+BEV-03,Folgers Classic Roast ground coffee (25.9 oz at Foodland),23.13,23.55,23.32,24.43,/oz
+SWEET-01,"C&H Granulated Sugar, 4 lb",5.75,6.28,5.81,6.84,/lb
+PREP-01,"Campbell's Chicken Noodle Soup, condensed, 10.75 oz",3.96,3.44,3.74,3.29,/oz
+PREP-03,"Maruchan Ramen Soy Sauce, 2.25 oz packet",0.83,0.90,0.87,0.95,/oz
+,SUBTOTAL (pre-tax),168.53,170.75,171.97,179.22,
+,TOTAL (with 4.5% GET tax),176.11,178.43,179.71,187.28,
