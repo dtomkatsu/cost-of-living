@@ -31,3 +31,6 @@ data/snap/
 # Logs
 logs/
 *.log
+
+# Playwright MCP browser-test artifacts
+.playwright-mcp/
